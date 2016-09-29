@@ -49,11 +49,56 @@ ul {
     }
 
     section article {
-        float: left;
+        float: right;
     }
 
     /* Re-style here... */
+    span.img {
+        text-align: center;
+        background-color: turquoise;
+        font-family: Arial, sans-serif;
+        font-size: 20pt;
+        padding: 20px;
+        margin: 5px;
+        color: white;
+        box-sizing: border-box;
+    }
     
+    nav#menu {
+        background-color: grey;
+        margin: 5px;
+        box-sizing: border-box;
+    }
+    
+    li {
+        text-align: center;
+        font-family: Arial, sans-serif;
+        padding: 15px;
+    }
+    
+    a {
+        color: white;
+    }
+    
+    article {
+        background-color: navy;
+        color: white;
+        margin: 5px;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    
+    footer {
+        background-color: grey;
+        margin: 5px;
+        padding: 20px;
+        color: white;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        box-sizing: border-box;
+    }
 }
 
 
